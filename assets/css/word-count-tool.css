@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #03A9F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 30px 0;
+}
+
+.counter{
+    background-color: #B3E5FC;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    display: none;
+}
+
+#input-word{
+    width: 340px;
+    padding: 12px 5px;
+    display: block;
+    text-align: center;
+}
+
+.count-btn{
+    width: 340px;
+    background-color: #BDBDBD;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 25px 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 140px;
+}
